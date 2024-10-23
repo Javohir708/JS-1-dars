@@ -114,3 +114,30 @@
         }
     }
 }
+@media (max-width: 330px) {
+    .hero {
+        .hero__text {
+            strong {
+                margin-top: 30px;
+                font-size: 30px
+            }
+            h2 {
+                font-size: 50px;
+            }
+            h3 {
+                font-size: 40px;
+            }
+        }
+        .hero__info {
+            h3 {
+                font-size: 25px;
+            }
+            p {
+                font-size: 15px;
+            }
+            div {
+                margin-bottom: 40px;
+            }
+        }
+    }
+}
