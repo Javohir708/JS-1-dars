@@ -15,6 +15,11 @@
         .navbar__collection {
             display: flex;
             gap: 40px;
+            .navbar__link {
+                &:hover {
+                    color: #ffcc00;
+                }
+            }
         }
         .navbar__menu {
             display: none;
